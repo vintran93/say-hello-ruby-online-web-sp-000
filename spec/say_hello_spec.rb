@@ -12,3 +12,11 @@ describe "say_hello" do
     say_hello()
   end
 end
+
+def greeting(name = "Ruby programmer")
+  puts "Hello, #{name}!"
+end
+
+def say_hello(name = "Ruby programmer")
+  puts "Hello, #{name}!"
+end
